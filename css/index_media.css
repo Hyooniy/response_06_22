@@ -14,7 +14,6 @@
 }
 
 @media screen and (max-width:979px) and (min-width:580px){
-  header{}
 
   header>div{
     display:block;
@@ -303,13 +302,15 @@ text-align:left;}
     width:100%;
   }
   #box04>form ul>li{
-    padding-left:150px;
+    padding-left:0;
   }
   #box04>form ul>li>label{
     padding-left:0;
     color:#fff;
     background:none;
-    width:150px;
+    width:auto;
+    left:20px; top: 0;
+    color: red;
   }
   #box04>form ul>li:nth-child(2)>label{
     background-image:none;}
@@ -321,4 +322,3 @@ text-align:left;}
       width:100%;
     }
 }
-/* 57분 */
